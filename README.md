@@ -61,7 +61,7 @@ To get started with StickS locally, follow these steps:
 Clone the repository:
 
 bash
-git clone https://github.com/yourusername/StickS.git
+git clone https://github.com/adam-krukowski/StickS.git
 
 Install dependencies:
 
