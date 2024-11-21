@@ -1,0 +1,35 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  place: one
+  drinking_water: false
+  trash_bins: false
+  bag_dispensers: false
+  water_play_areas: false
+  small_large_areas: false
+  fenced_areas: false
+  shade_rest_areas: false
+  open_spaces: false
+  low_noise: false
+  safe_paths: false
+  no_dog_zones: false
+  dog_friendly_businesses: false
+  toilet_facilities: false
+  playdate_opportunities: false
+
+two:
+  place: two
+  drinking_water: false
+  trash_bins: false
+  bag_dispensers: false
+  water_play_areas: false
+  small_large_areas: false
+  fenced_areas: false
+  shade_rest_areas: false
+  open_spaces: false
+  low_noise: false
+  safe_paths: false
+  no_dog_zones: false
+  dog_friendly_businesses: false
+  toilet_facilities: false
+  playdate_opportunities: false
