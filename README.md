@@ -26,6 +26,7 @@ username 🏷️ - a unique name visible to all users.
 
 Authentication:
 
+
 Users can log in and create accounts to interact with the app.
 
 
