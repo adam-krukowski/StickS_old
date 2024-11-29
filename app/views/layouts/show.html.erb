@@ -1,0 +1,9 @@
+<h1><%= @place.name %></h1>
+<p><%= @place.description %></p>
+
+<h3>Ticks:</h3>
+<%= form_with(model: [@place, @tick], local: true) do |form| %>
+  <%= form.label :water, "Water Available?" %>
+  <%= form.check_box :water %>
+  <%= form.submit "Update Ticks" %>
+<% end %>
