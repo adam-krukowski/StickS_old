@@ -132,3 +132,7 @@ HTML, CSS, JavaScript (Frontend) (soon added)
 Feel free to explore and contribute to the project! 
 
 🛠️ If you have any ideas or improvements, open an issue or create a pull request! 🚀
+
+
+
+SOON WILL BE ADDED: fully working map with available filters
