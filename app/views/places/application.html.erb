@@ -5,12 +5,19 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <%= javascript_pack_tag 'map' %>
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag 'https://unpkg.com/leaflet@1.7.1/dist/leaflet.css', integrity: 'sha512-xodZBNTC5n17Xt2m2M3L0eXZOG5p8pMDT2/2H6sglfc58jRMX6g5ChW/nujpJg1pXg1rrp8yDg/1kO5wIrG8wQ==', crossorigin: 'anonymous' %>
     <%= javascript_importmap_tags %>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   </head>
 
   <body>
     <%= yield %>
+    <%= javascript_include_tag 'https://unpkg.com/leaflet@1.7.1/dist/leaflet.js', integrity: 'sha512-nMMRgMpibD1RU2LtvhtRO24NiZzsr+HT1QTLjSk1XjPP/+T24EPFOoE8i+jrKGMGY5jF3hBt8n82cy71z9d/dw==', crossorigin: 'anonymous' %>
+    <%= javascript_pack_tag 'map' %>
+    <%= javascript_include_tag 'map' %>
+
   </body>
 </html>
