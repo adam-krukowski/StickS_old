@@ -136,3 +136,4 @@ Feel free to explore and contribute to the project!
 
 
 SOON WILL BE ADDED: fully working map with available filters
+CURRENTLY WORKING ON: syncinc map, making sure its displaying
